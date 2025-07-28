@@ -1,0 +1,43 @@
+Question 1: What are all the features of Java 8 did you used??
+
+1: Functional Interface(include default & static method)
+2: Lambda Expression
+3: Stream Api
+4: CompletableFuture
+5: Java DateTime API
+
+Question 3: What is Functional Interface?
+ANSWER: An Interface that contains only one abstract method is known as Functional Interface,'
+It can have any number of default and static methods.
+
+Question 3: Can you tell few functional interface which is already there before java 8?
+-> Runnable
+-> Callable
+-> Comparator(interviewer might ask about equals() method inside comparator)
+
+Question 4:Comparator have 2 abstract methods equals() and compare(), then How this is a Functional Interface ??
+
+
+
+Question 1: Whart are all the features of Java 8 did you used??
+
+@FunctionalInterface
+public interface UpiPayment {
+
+    int doPayment(String source, String destination);
+
+    default String getScratchCard() {
+        return "";
+    }
+
+    public static int sum(){
+        return 10;
+    }
+}
+Question 1: Whart are all the features of Java 8 did you used??
+Question 1: Whart are all the features of Java 8 did you used??
+Question 1: Whart are all the features of Java 8 did you used??
+Question 1: Whart are all the features of Java 8 did you used??
+Question 1: Whart are all the features of Java 8 did you used??
+
+7:00 mintue: https://www.youtube.com/watch?v=k7fNLXoVCYg&list=PLVrsicPCiE40ZwWw7rburF8x1AegaAvq2
